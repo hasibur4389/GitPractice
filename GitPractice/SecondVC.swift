@@ -9,10 +9,14 @@ import UIKit
 
 class SecondVC: UIViewController {
 
+    @IBOutlet var myLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        myLabel.text = "Either button 1 or  2 was clicked"
+        
     }
     
 

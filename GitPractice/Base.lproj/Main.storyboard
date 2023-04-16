@@ -70,6 +70,9 @@
                             <constraint firstItem="Jf1-79-TUh" firstAttribute="centerY" secondItem="yHa-Ie-5O4" secondAttribute="centerY" id="e7d-uG-tmm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myLabel" destination="Jf1-79-TUh" id="Lb8-01-bFY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eCa-4G-fOt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
